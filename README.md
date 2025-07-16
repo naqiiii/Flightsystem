@@ -1,19 +1,35 @@
-# PIA Flight PK-171 Seat Booking System
+# PIA Flight PK-171 Seat Booking System (C Language)
 
-A simple C-based console program that simulates a seat booking system for **PIA Flight PK-171** (Islamabad to Madinah).
+A console-based flight booking simulation system in C, designed as part of a semester project at PIEAS. This application replicates the seat selection and ticket fare logic of **PIA Flight PK-171 from Islamabad to Madinah**, including window seat surcharges and reserved seats.
 
 ## ✈️ Features
 
-- Supports **Business Class (Seats 1–15)** and **Economy Class (Seats 16–45)**
-- Identifies **window-side seats** and applies extra charges
-- Prevents **double booking** of already reserved seats
-- Handles **Air Host reserved seats (21 & 34)**
-- Allows **multiple passengers** to book seats in a single run
+- Business and Economy class booking
+- Seat availability and real-time booking status
+- Window-side seat charge
+- Reserved air host seats (21 and 34)
+- Input validation and error handling
+- Clean UI with informative prompts
 
-## 💰 Fare Details
+## 💻 Technologies
+- Language: C
+- Environment: Turbo C++ / GCC
+- No external libraries required
 
-| Class         | Base Fare | Window Seat Extra |
-|---------------|-----------|-------------------|
-| Business      | 82,000 PKR | 2,050 PKR         |
-| Economy       | 72,000 PKR | 1,368 PKR         |
-| Air Host Seat | 0 PKR     | -                
+## 🧠 Logic Overview
+- Business Class: Seats 1–15, window seats at every 3rd number (e.g., 3, 6, 9)
+- Economy Class: Seats 16–45, window seats every multiple of 6
+- Seat fares include:
+  - Business: PKR 82,000 + 2,050 (window)
+  - Economy: PKR 72,000 + 1,368 (window)
+- Air host seats (21, 34) are free and reserved
+
+## 👨‍💻 Author
+
+**Syed Hassan Raza**  
+BS Computer Science – PIEAS University  
+Semester 6 – Application Development Project  
+[LinkedIn](https://www.linkedin.com/in/syed-hassan-raza-ba842b277)
+
+## 📜 License
+MIT License – Use freely for learning or demonstration.
