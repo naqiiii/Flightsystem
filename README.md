@@ -28,8 +28,6 @@ A console-based flight booking simulation system in C, designed as part of a sem
 
 **Syed Hassan Raza**  
 BS Computer Science – PIEAS University  
-Semester 6 – Application Development Project  
 [LinkedIn](https://www.linkedin.com/in/syed-hassan-raza-ba842b277)
 
-## 📜 License
-MIT License – Use freely for learning or demonstration.
+
